@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker Service with RabbitMq and Asp.net core api", "Worker Service with RabbitMq and Asp.net core api\Worker Service with RabbitMq and Asp.net core api.csproj", "{C3CEBBC5-3BAD-46B8-99AD-CA6967714DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWorker", "EmailWorker\EmailWorker.csproj", "{A712EA86-4E26-48DB-8DE7-4E0A470D45EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3CEBBC5-3BAD-46B8-99AD-CA6967714DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CEBBC5-3BAD-46B8-99AD-CA6967714DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CEBBC5-3BAD-46B8-99AD-CA6967714DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CEBBC5-3BAD-46B8-99AD-CA6967714DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A712EA86-4E26-48DB-8DE7-4E0A470D45EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A712EA86-4E26-48DB-8DE7-4E0A470D45EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A712EA86-4E26-48DB-8DE7-4E0A470D45EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A712EA86-4E26-48DB-8DE7-4E0A470D45EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92F05A13-AFA4-48BF-8A03-023444869151}
+	EndGlobalSection
+EndGlobal

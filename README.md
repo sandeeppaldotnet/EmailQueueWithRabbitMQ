@@ -106,6 +106,28 @@ EmailQueueWithRabbitMQ/
 └── README.md
 📸 Screenshots (optional)
 Add screenshots of RabbitMQ queue, Swagger UI, or Windows Service status if you'd like.
+---
+
+## 📸 Screenshots
+
+### ✅ 1. Windows Service Running
+Shows that the EmailWorker is installed and running as a Windows Service.
+
+![Windows Service Running](startservice.png)
+
+---
+
+### 📊 2. RabbitMQ Web UI – Queues
+RabbitMQ Management UI showing the `email_queue` with messages ready.
+
+![RabbitMQ Queue Overview](rabbitmq1.png)
+
+---
+
+### 📥 3. Email Added to Queue
+Example of an email successfully queued via the Web API.
+
+![Email Queued](email-add-in-queque.png)
 
 📄 License
 MIT - free for personal and commercial use.
